@@ -1,0 +1,220 @@
+body {
+    background: url(../images/indexlayout.png) #f5f5f5 top center no-repeat;
+}
+
+.index-layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.f_goods {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+
+    .f_goods_left {
+        width: 232px;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .categorys-item {
+            padding: 14.5px 16px;
+            width: 200px;
+            position: relative;
+
+            &:hover {
+                background-color: #000;
+                cursor: pointer;
+            }
+
+            .iconfont {
+                color: #bfbfbf;
+                float: left;
+            }
+
+            .categorys_title {
+                margin-left: 10px;
+                float: left;
+                width: 173px;
+                margin-top: -2px;
+
+                strong {
+                    font-weight: 400;
+                    font-size: 0;
+                }
+
+                a {
+                    color: #fff;
+                    font-size: 14px;
+
+                    &:hover {
+                        color: #e23435;
+                    }
+                }
+
+                span {
+                    display: block;
+
+                    a {
+                        color: #bfbfbf;
+                    }
+                }
+            }
+
+            .categorys_i_e {
+                position: absolute;
+                width: 966px;
+                height: 635px;
+                border: 1px solid #fff;
+                background-color: #fff;
+                left: 232px;
+                top: 0;
+                z-index: 10;
+
+                .c_i_e_content {
+                    padding: 20px 20px 28px 18px;
+                    cursor: pointer;
+                    overflow: hidden;
+
+                    .cata_lay_left {
+                        width: 704px;
+                        float: left;
+
+                        .cate_channel {
+                            height: 24px;
+
+                            a {
+                                float: left;
+                                margin-right: 10px;
+                                padding: 0 10px 0 12px;
+                                height: 24px;
+                                line-height: 24px;
+                                color: #fff;
+                                font-size: 12px;
+                                background-color: #5f4f4f;
+                            }
+                        }
+
+                        .cate_detail {
+                            margin-top: 20px;
+                            width: 100%;
+
+
+                            dl {
+                                padding-left: 80px;
+                                position: relative;
+
+
+                                dt {
+                                    position: absolute;
+                                    color: #555;
+                                    left: 0;
+                                    top: 9px;
+                                    width: 70px;
+                                    text-align: right;
+                                    font-weight: 700;
+
+                                    a {
+                                        font-weight: 700;
+                                        font-size: 12px;
+                                        color: #555;
+
+                                        &:hover {
+                                            color: #f42424;
+                                        }
+                                    }
+                                }
+
+                                dd {
+                                    padding: 8px 0;
+                                    border-bottom: 1px dashed #d2d2d2;
+                                    overflow: hidden;
+
+                                    a {
+                                        float: left;
+                                        margin: 8px 0;
+                                        padding: 0 10px;
+                                        height: 12px;
+                                        border-left: 1px solid #e0e0e0;
+                                        line-height: 12px;
+                                        color: #555;
+                                        font-size: 12px;
+
+                                        &:hover {
+                                            color: #f42424;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .f_goods_center {
+        width: 758px;
+
+        .slideBox {
+
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slideBox .hd {
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            bottom: 25px;
+            padding: 4px 8px;
+            border-radius: 12px;
+            background-color: hsla(0, 0%, 100%, .3);
+            font-size: 0;
+        }
+
+        .slideBox .hd ul {
+            overflow: hidden;
+            float: left;
+        }
+
+        .slideBox .hd ul li {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: rgba(255, 255, 255, .4);
+            border-radius: 50%;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        .slideBox .hd ul li.on {
+            background-color: rgba(255, 255, 255, 1);
+            color: #fff;
+        }
+
+        .slideBox .bd {
+            position: relative;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .slideBox .bd li {
+            zoom: 1;
+            vertical-align: middle;
+        }
+
+        .slideBox .bd img {
+
+            display: block;
+        }
+    }
+
+    .f_goods_right {
+        width: 210px;
+        background-color: blue;
+
+    }
+}
