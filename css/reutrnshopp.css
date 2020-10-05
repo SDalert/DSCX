@@ -1,0 +1,16 @@
+.myordershp p{
+	top: 150px;
+	left: 350px;
+}
+.myordershp img{
+	top: 100px;
+	left: 180px;
+}
+.myorder p{
+	color: #8C8C8C;
+	float: right;
+	margin-right: 600px;
+}
+.myorder p span{
+	color: red;
+}

@@ -1,0 +1,28 @@
+.myordershp p,.myordershp2 p{
+	width: 100px;
+	position: absolute;
+	top: 150px;
+	left: 350px;
+}
+.myordershp img,.myordershp2 img{
+	position: absolute;
+	top: 100px;
+	left: 180px;
+}
+.myordershp,.myordershp2{
+	position: absolute;
+	height: 600px;
+}
+.myorder h2 .myorder-ul{
+	margin-right: 630px;
+}
+.myordershp .myorder-ul,.myordershp2 .myorder-ul{
+	margin:5px 0;
+	float: left;
+}
+.myordershp2{
+	display: none;
+	width: 860px;
+}
+.myordershp2 .select{
+}

@@ -1,0 +1,61 @@
+.myordershp-ul,.myordershp-ul2{
+	width: 870px;
+	height: 125px;
+}
+.myordershp-ul li{
+	width: 240px;
+	height: 125px;
+	box-sizing: border-box;
+	padding: 40px 0;
+	float: left;
+	text-align: center;
+}
+.myordershp-ul li span{
+	color: red;
+	font-size: 30px;
+}
+.myordershp-ul2{
+	height: 82px;
+	display: flex;
+	justify-content: space-between;
+}
+.myordershp-ul2 li{
+	width: 200px;
+	height: 80px;
+	border: 1px solid #CCCCCC;
+}
+.myordershp-ul2 li p:nth-child(1){
+	font-size: 16px;
+	color: #8C8C8C;
+	position: initial;
+	text-align: center;
+	margin-top: 20px;
+}
+.myordershp-ul2 li p:nth-child(2){
+	font-size: 16px;
+	color: red;
+	position: initial;
+	text-align: center;
+}
+.myorder-ul{
+	float: none;
+}
+.myorder{
+	height: 30px;
+}
+.mywrite-sp,.mywrite-sp1{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 800px;
+	height: 45px;
+	background-color: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.mywrite-sp1{
+	opacity: 0;
+}
