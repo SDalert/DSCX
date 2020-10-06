@@ -1225,3 +1225,199 @@ body {
 .icon_3 {
   background-position: -60px -30px !important;
 }
+.Techtronic {
+  width: 1210px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.Techtronic .Techtronic_list {
+  float: left;
+  position: relative;
+  width: 393px;
+  height: 170px;
+  margin: 10px 10px 0 0;
+}
+.Techtronic .Techtronic_list .n_line {
+  width: 78px;
+  margin-left: 35px;
+  position: relative;
+  display: block;
+  height: 5px;
+  margin-top: 44px;
+  background: url(../images/favicon.png);
+  background-position: -1px -3px;
+}
+.Techtronic .Techtronic_list .tec_name {
+  font-weight: bold;
+  font-size: 20px;
+  height: 26px;
+  margin: 5px 0 5px 35px;
+  position: relative;
+  color: #fff;
+  width: 160px;
+  overflow: hidden;
+}
+.Techtronic .Techtronic_list .w_line {
+  width: 154px;
+  margin-left: 35px;
+  position: relative;
+  display: block;
+  height: 2px;
+  background: url(../images/favicon.png);
+  background-position: 0 -11px;
+}
+.Techtronic .Techtronic_list .tec_title {
+  font-size: 14px;
+  height: 20px;
+  margin: 5px 0 5px 35px;
+  position: relative;
+  color: #fff;
+  width: 160px;
+  overflow: hidden;
+}
+.Techtronic .Techtronic_list img {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  right: 25px;
+  top: 0;
+  transition: transform 0.5s;
+}
+.Techtronic .Techtronic_list img:hover {
+  transform: translateX(-10px);
+}
+.tec_first {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#e89621), to(#f5c568));
+}
+.tec_two {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#325bb4), to(#4c9afe));
+}
+.tec_three {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#1c9daf), to(#40cda7));
+}
+.tec_four {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#d13837), to(#df6d4f));
+}
+.tec_five {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#ca4283), to(#eb75cf));
+}
+.tec_six {
+  background: -webkit-gradient(linear, 0 0, right 0, from(#5d40c1), to(#8c5fdb));
+}
+.hot_phone {
+  margin-top: 20px;
+  width: 100%;
+}
+.hot_phone .hot_p_list {
+  width: 595px;
+  background-color: #fff;
+  box-shadow: 0 0 8px #eee;
+  overflow: hidden;
+}
+.hot_phone .hot_p_list .hot_p_title {
+  width: 100%;
+  height: 45px;
+  border-top: 2px solid #33ae75;
+  color: #fff;
+  position: relative;
+  background-color: rgba(51, 174, 117, 0.1);
+}
+.hot_phone .hot_p_list .hot_p_title .hot_p_t_name {
+  background-color: #33ae75;
+  float: left;
+  width: 181px;
+  height: 45px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 45px;
+}
+.hot_phone .hot_p_list .hot_p_title .hot_p_ul {
+  width: 380px;
+  height: 20px;
+  float: right;
+  margin: 14px 18px 0 0;
+}
+.hot_phone .hot_p_list .hot_p_title .hot_p_ul li {
+  float: right;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #666;
+}
+.hot_phone .hot_p_list .hot_p_content {
+  width: 596px;
+  overflow: hidden;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_img {
+  float: left;
+  width: 195px;
+  height: 360px;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_img img {
+  width: 100%;
+  height: 270px;
+  display: block;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_i_name {
+  background-color: #33ae75;
+  width: 100%;
+  height: 90px;
+  color: #fff;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_i_name span {
+  display: block;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_i_name .hot_p_f {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 18px 0 0 20px;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_i_name .hot_p_t {
+  padding-left: 20px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul {
+  float: left;
+  width: 400px;
+  height: 360px;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul li {
+  float: left;
+  width: 199px;
+  height: 179px;
+  border-width: 0 0 1px 1px;
+  border-color: #eee;
+  border-style: solid;
+  overflow: hidden;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul li .hot_p_ul_name {
+  display: block;
+  width: 180px;
+  height: 24px;
+  overflow: hidden;
+  text-align: center;
+  margin: 14px auto 0;
+  font-size: 16px;
+  color: #333;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul li .hot_p_ul_title {
+  display: block;
+  width: 180px;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #33ae75;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul li img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  transition: transform 0.5s;
+}
+.hot_phone .hot_p_list .hot_p_content .hot_p_ul li img:hover {
+  transform: scale(1.05);
+}
