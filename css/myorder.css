@@ -1,0 +1,56 @@
+.ftsbox{
+	width: 920px;
+	height: 831px;
+	background-color: #fff;
+	padding: 30px;
+	box-sizing: border-box;
+	float: right;
+}
+.myorder-ul{
+	margin-right: 390px;
+	float: right;
+}
+.myorder-ul li{
+	height: 28px;
+	float:left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.myorder-ul li:hover{
+	color: red;
+}
+.myorder-ul-li{
+	border-bottom: 2px solid red;
+	color: red;
+}
+.select{
+	margin-top: 30px;
+	width: 150px;
+	height: 30px;
+}
+.text{
+	margin-top: 30px;
+	height: 26px;
+	float: right;
+}
+.myordershp{
+	position: relative;
+}
+.myordershp img,.myordershp p{
+	position: absolute;
+	top: 200px;
+}
+.myordershp p{
+	top: 250px;
+	font-size: 16px;
+	color: #8C8C8C;
+	left: 500px;
+}
+.mbrname{
+	height: 115px;
+}
+.mbrbox .mbrbox-ct{
+	height: 930px;
+}
+
+

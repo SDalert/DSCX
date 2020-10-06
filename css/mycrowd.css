@@ -1,0 +1,25 @@
+.myordershp p{
+	top: 150px;
+	left: 350px;
+}
+.myordershp img{
+	top: 100px;
+	left: 180px;
+}
+.myorder-ul{
+	margin-right: 620px;
+}
+.myordershp div{
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #CCCCCC;
+	position: absolute;
+	top: 180px;
+	left: 350px;
+}
+.myordershp div:hover{
+	border: 1px solid orangered;
+	color:orangered ;
+}
