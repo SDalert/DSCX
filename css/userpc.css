@@ -1,0 +1,35 @@
+.myorder-ul{
+    margin-right: 620px;
+}
+.myordershp{
+    background:url('../images/errorImg.png') no-repeat 600px 0px;
+}
+.myordershp div{
+    color: #8c8c8c;
+    margin-top: 15px;
+}
+.myordershp button{
+    width: 100px;
+    height: 40px;
+    margin-left: 140px;
+    background-color: red;
+    border-color:red ;
+    color: white;
+    margin-top:20px ;
+}
+.myordershp div span{
+    color: #8c8c8c;
+    margin-left: 30px;
+}
+.myordershp div select{
+    width: 100px;
+    height: 30px;
+}
+.myordershp div [type="text"],.myordershp div select:nth-child(2){
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+.myordershp div [type="radio"]:nth-child(2){
+    margin-left: 50px;
+}

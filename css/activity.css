@@ -14,10 +14,10 @@
 	height: 600px;
 }
 .myorder h2 .myorder-ul{
-	margin-right: 630px;
+	margin-right: 620px;
 }
 .myordershp .myorder-ul,.myordershp2 .myorder-ul{
-	margin:5px 0;
+	/* margin:5px 0; */
 	float: left;
 }
 .myordershp2{

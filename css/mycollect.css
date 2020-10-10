@@ -1,0 +1,14 @@
+.myorder-ul{
+    margin-right: 545px;
+}
+.myordershp img,.myordershp2 img{
+	position: absolute;
+	top: 100px;
+	left: 180px;
+}
+.myordershp p, .myordershp2 p {
+    width: 320px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}

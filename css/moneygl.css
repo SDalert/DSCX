@@ -1,0 +1,63 @@
+.mywrite-sp,.mywrite-sp1{
+    display: block;
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-top: 100px;
+}
+.mywrite-sp span{
+    margin-left: 60px;
+}
+.mywrite-sp1 span{
+    margin-left: 120px;
+}
+.mywrite-sp div,.mywrite-sp1 div{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.margntb{
+    margin: 50px 0;
+}
+.myorder-ul li{
+    font-size: 14px;
+}
+.usermy{
+    font-size: 14px;
+    margin-left: 335px;
+}
+.mysp{
+    font-size: 40px;
+    color: #f42424;
+    margin-top: 15px;
+    display: inline-block;
+}
+.btndiv div{
+    float: left;
+}
+.btndiv div:nth-child(1){
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 292px;
+    margin-bottom: 50px;
+}
+.btndiv div:nth-child(1):hover{
+    background-color: #f42424;
+}
+.btndiv div:nth-child(2):hover{
+    color: #f42424;
+    border-color:#f42424 ;
+}
+.btndiv div:nth-child(2){
+    width: 100px;
+    height: 40px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul , li{
+    list-style: none;
+}
+#nav_head{
+    width: 100%;
+    
+}
+#nav_ing{
+    width: 100%;
+    height: 80px;
+    background-color: #EA0068;
+    display: block;
+    
+}
+#nav_ing .nav_ad{
+    width: 1200px;
+    height: 80px;
+    margin-left: 18.8%;
+}
+#nav_del{
+    position: absolute;
+    left: 1522px;
+    top: 6px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+
+#nav_appbar{
+    width: 1200px;
+    height: 168px;
+    margin: 0 auto;
+    border-bottom: 1px solid red;
+position: relative;
+z-index: 10000;
+    /* 对齐方式 中线对齐 */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+#nav_left{
+    width: 230px;
+    height: 168px;
+    /* display: inline-block; */
+}
+#nav_left>img{
+    width: 160px;
+    height: 80px;
+    margin: 22px 35px;
+}
+
+#nav_left>p{
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    background-color: red;  
+    color: #fff; 
+}
+
+
+#nav_right{
+    width: 970px;
+    height: 168px;
+    z-index: 100;
+    position: relative;
+    /* display: inline-block; */
+}
+
+#nav_top{
+    width: 970px;
+    height: 116px;
+}
+#nav_index li,#nav_ulsting li{
+    float: left;
+}
+#nav_top #nav_boxr{
+    height: 32px;
+    background-color: #eee;
+    position: relative;
+    z-index: 200;
+}
+
+
+
+
+#nav_top #nav_boxr #nav_ulone{
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+
+}
+#nav_top #nav_boxr #nav_ulone div{
+    font-size: 13px;
+    color: #92A0B5;
+    display: inline-block;
+}
+#nav_top #nav_boxr #nav_ulone #nav_chengchow{
+    padding: 5px;
+    margin: 0 10px;
+    position: relative;
+    z-index: auto;
+}
+#nav_top #nav_boxr #nav_ulone #nav_chengchow #nav_chengchowbox{
+    width: 446px;
+    height: 238px;
+    border: 1px solid #C1C1C1;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    z-index: -1;
+    background-color: #fff;
+    display: none;
+}
+
+.nav-Nav{
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    border-bottom: 1px solid #fff;
+}
+
+
+#nav_boxr #nav_ulone #nav_please{
+    margin: 0px  10px ;
+}
+#nav_boxr #nav_ulone #nav_please a{
+    color: red;
+}
+
+
+
+
+#nav_top #nav_boxr #nav_ulone div span{
+    color: red;
+    font-size: 18px;
+}
+#nav_top #nav_boxr #nav_ultow{
+    width: 396px;
+    height: 100%;
+    display: inline-block;
+    margin-left: 288px;
+}
+
+
+#nav_top #nav_boxr #nav_ultow div{
+    font-size: 12px;
+    color: #92A0B5;
+    display: inline-block;
+}
+#nav_top #nav_boxr #nav_ultow #nav_ulbox2{
+    position: relative;
+    z-index: auto;
+    padding:9px 18px 8px;
+}
+
+#nav_top #nav_boxr #nav_ultow #nav_ulbox2 #nav_ulnav{
+    width: 380px;
+    height: 120px;
+    border: 1px solid #c1c1c1;
+    position: absolute;
+    right: -1px;
+    top: 33px;
+    z-index: -1;
+    padding:10px 0px;
+    color: #ccc;
+    background-color: #fff;
+    display: none;
+}
+#nav_ulbox2 #nav_ulnav #nav-nav{
+    width: 85px;
+    padding-left: 28px;
+    border-right: 1px solid #ccc; 
+}
+#nav_ulbox2 #nav_ulnav #nav-nav ul li{
+    height: 30px;
+    width: 85px;
+}
+#nav_ulnav .nav-head{
+    font-weight:600;
+}
+#nav_ulbox2 #nav_ulnav #nav-box{
+    width: 240px;
+    height: 130px;
+    margin-left: 20px;
+    position: relative;
+    left: 6px;
+    top:-30px;
+}
+#nav_ulbox2 #nav_ulnav #nav-box #nav-box2{
+    width: 240px;
+    margin-bottom: 14px;
+    padding-left: 10px;
+}
+
+#nav_ulbox2 #nav_ulnav #nav-box .nav_mbox{
+    display: inline-block;
+    width: 51px;
+    margin: 0px 10px 14px;
+}
+#nav_ulbox2 #nav_ulnav #nav-box .nav_mbox1{
+    margin: 0px 10px 24px;
+}
+
+#nav_top  #nav_divn{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100 ;
+}
+#nav_divn input{
+    padding-left: 10px;
+}
+
+#nav_top #nav_btn1,#nav_top #nav_btn2{
+    width: 70px;
+    height: 34px;
+    color: #fff;
+    background-color: red;
+    border: 1px solid #fff;
+}
+#nav_top #nav_ulsting{
+    margin: -8px 0px 0px 40px;
+    font-size: 14px;
+}
+#nav_top #nav_ulsting a{
+    color: #92A0B5;
+}
+#nav_top #nav_ulsting li{
+    padding-right:10px;
+}
+
+
+#nav_top #nav_btn2{
+    margin-right: 166px;
+    margin-left: 10px;
+    background-color: #B31919;
+}
+
+
+#nav_gwc{
+    width: 176px;
+    height: 34px;
+    display: inline-block;
+    border: 1px solid #c1c1c1;
+    text-align: center;
+    line-height: 34px;
+    color: red;
+    position: relative;
+    z-index: auto;
+}
+
+
+#nav_gwc #ttf{
+    font-size: 20px;
+}
+#nav_gwc .ttf{
+    font-size: 12px;
+}
+#nav_gwc #nav_count{
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    background-color: red;
+    margin:  2px auto;
+    border-radius:100%;
+}
+
+
+#nav_gwc #nav_count{
+    display: inline-block;
+}
+
+#nav_gwcdiv{
+    border: 1px solid #c1c1c1;
+    position: absolute;
+    top: 34px;
+    right: -1px;
+    z-index: -1;
+    width: 306px;
+    padding: 10px;
+    height: 100px;
+    background-color: #fff;
+    display: none;
+}
+#nav_gwcdiv img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#nav_gwcdiv div{
+    width: 175px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+#nav_top #nav_index{
+    text-align: left;
+    font-size: 16px;
+    padding-top: 56px;
+    position: relative;
+    z-index: -2;
+}
+#nav_top  #nav_index li{
+    margin-left: 30px;
+}
+#nav_right #nav_top #nav_index #nav_index1 a{
+    color:red;
+}
+
+#nav_text{
+    width: 398px;
+    height: 34px;
+    border: 1px solid red;
+}
+
+#nav_index li a:hover
+,#nav_ulsting li:hover 
+,#nav_ultow span a:hover
+,#nav_ultow div a:hover
+,#nav_enroll a:hover
+,#nav_ulone li a:hover{
+    color: red;
+    cursor:pointer;
+}
+#nav_gwc:hover{
+border-bottom: 1px solid #fff;
+}
+#nav_gwc:hover #nav_gwcdiv{
+    display: block;
+}
+
+#nav_chengchow:hover{
+    border: 1px solid #c1c1c1;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+#nav_ulbox2:hover{
+    border: 1px solid #c1c1c1;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    color: #ccc;
+}

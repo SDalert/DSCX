@@ -1,0 +1,80 @@
+/* 右边内容 */
+.myorder h2 span:nth-of-type(1){
+    color: #f43434;
+}
+.myorder h2 span:nth-of-type(2){
+    width: 100px;
+    height: 3px;
+    border-bottom:3px solid #f43434 ;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.myorder h2 span:nth-of-type(3){
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #8c8c8c ;
+    display: inline-block;
+    margin-left: -5px;
+}
+.myorder h2 span:nth-of-type(4){
+    width: 200px;
+    height: 3px;
+    border-bottom:3px solid #d2d2d2 ;
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: -5px;
+}
+.myorder h2 span:nth-of-type(5){
+    color: #ffa450;
+    margin-left: 10px;
+}
+.myordershp-div1{
+    height: 60px;
+    padding: 40px 0;
+    border-bottom: 1px solid #8c8c8c;
+}
+.myordershp-div1 span{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    display: inline-block;
+    float: left;
+}
+.myordershp-div1:nth-child(1) span,.myordershp-div1:nth-child(3) span{
+    color: #9ed440;
+}
+.myordershp-div1:nth-child(2) span,.myordershp-div1:nth-child(4) span,.myordershp-div1:nth-child(5) span{
+    color: #f42424 ;       
+}
+.myordershp-div1 p{
+    position: static !important;
+    float: left;
+}
+.myordershp-div1-p1{
+    color: black !important;
+}
+.myordershp-div1-p2{
+    color: #f42424 !important;
+}
+.myordershp-div1 div{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    float: right;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 12px;
+}
+.myordershp-div1 .myordershp-div1-div{
+    border-color: #f42424;
+    color: #f42424;
+}
+.myordershp-div1 div:hover{
+    border-color: #f42424;
+    color: #f42424;
+}
