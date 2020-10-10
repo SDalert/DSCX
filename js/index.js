@@ -70,6 +70,14 @@ $('.view_bottom').hover(function() {
 
 $(document).scroll(function() {
     var sTop = $(window).scrollTop();
+    if (sTop > $('.index-layout').offset().top) {
+        $('.index_sidebar').fadeIn()
+        $('.index_sidebar').css('opacity', 1)
+    } else {
+        $('.index_sidebar').fadeOut()
+        $('.index_sidebar').css('opacity', 0)
+
+    }
     $('.index-layout').children('div').not('.f_goods,.division').each(function(index) {
         if (sTop > $('.index-layout').children('div').not('.f_goods,.division').eq(index).offset().top - 200) {
             $('.index_sidebar li').eq(index).addClass('sidebar_active').siblings().removeClass('sidebar_active')

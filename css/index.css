@@ -1830,6 +1830,7 @@ body {
     left: 20px;
     top: 25%;
     overflow: hidden;
+    opacity: 0;
 }
 
 .index_sidebar li {
