@@ -85,14 +85,44 @@ next.onclick = function() {
     yidong(ul1, target1);
 }
 prev.onclick = function() {
-    flag--;
-    if (flag == -1) {
-        flag = 0;
+        flag--;
+        if (flag == -1) {
+            flag = 0;
+        }
+        for (var i = 0; i < li1.length; i++) {
+            li1[i].className = 'li1';
+        }
+        li1[flag].className = 'color-red';
+        var target1 = flag * -1200;
+        yidong(ul1, target1);
     }
-    for (var i = 0; i < li1.length; i++) {
-        li1[i].className = 'li1';
+    // 楼层导航
+    // 淡入淡出
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 570) {
+        $('.aside').fadeIn();
+    } else {
+        $('.aside').fadeOut();
     }
-    li1[flag].className = 'color-red';
-    var target1 = flag * -1200;
-    yidong(ul1, target1);
-}
+    $('.floor').each(function(index) {
+        if ($(window).height() + $(window).scrollTop() - $(this).offset().top > $(window).height() + 570) {
+            $('.aside li').eq($(this).index()).addClass('active').siblings().removeClass('active');
+        }
+    })
+})
+
+// click改变类名
+$('.aside li').click(function() {
+    $(this).addClass('active').siblings().removeClass('active');
+    $('html').animate({
+        scrollTop: $('.floor').eq($(this).index()).offset().top
+    })
+
+})
+
+// 回到顶部
+$('.gotop').click(function() {
+    $('html').animate({
+        scrollTop: 0
+    })
+})
